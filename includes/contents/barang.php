@@ -86,7 +86,7 @@
 							</tr>
 							<tr class='light'>
 								<td>TANGGAL</td>
-								<td><input class="input" type="text" name="nama"/></td>
+								<td><input class="input" type="text" name="nama" value="<?php echo date('d/m/Y') ?>"/></td>
 							</tr>
 							<tr class='dark'>
 								<td>BERITA</td>

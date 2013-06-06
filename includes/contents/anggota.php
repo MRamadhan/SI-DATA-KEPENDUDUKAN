@@ -63,14 +63,18 @@
 								<td><input class="input" type="text" name="nama"/></td>
 							</tr>
 							<tr class='dark'>
+								<td>PASSWORD</td>
+								<td><input class="input" type="text" name="password"/></td>
+							</tr>
+							<tr class='light'>
 								<td>ALAMAT LENGKAP</td>
 								<td><input class="input" type="text" name="alamat"/></td>
 							</tr>
-							<tr class='light'>
+							<tr class='dark'>
 								<td>TELEPON</td>
 								<td><input class="input" type="text" name="telepon"/></td>
 							</tr>
-							<tr class='dark'>
+							<tr class='light'>
 								<td></td>
 								<td><input type="submit" name="submit" value="Tambah" /></td>
 							</tr>
@@ -93,22 +97,26 @@
 										<th colspan='2'><center><h1>Data Anggota</h1></center></th>
 									</tr>
 									<tr class='dark'>
-										<td>Id Anggota</td>
+										<td>ID KELUARGA</td>
 										<td><input type="hidden" name="id" value="<?php echo $a['id_anggota']?>"/><?php echo $a['id_anggota'];?></td>
 									</tr>
 									<tr class='light'>
-										<td>Username</td>
+										<td>NAMA KK</td>
 										<td><input class='input' type="text" name="nama" value="<?php echo $a['nama_anggota']?>"/></td>
 									</tr>
 									<tr class='dark'>
-										<td>Alamat Anggota</td>
+										<td>AlAMAT LENGAKP</td>
 										<td><input class='input' type="text" name="alamat" value="<?php echo $a['alamat']?>"/></td>
 									</tr>
 									<tr class='light'>
-										<td>Telepon</td>
-										<td><input class='input' type="text" name="telepon" value="<?php echo $a['telepon']?>"/></td>
+										<td>PASSWORD</td>
+										<td><input class='input' type="text" name="password" value="<?php echo $a['password']?>"/></td>
 									</tr>
 									<tr class='dark'>
+										<td>TELEPON</td>
+										<td><input class='input' type="text" name="telepon" value="<?php echo $a['telepon']?>"/></td>
+									</tr>
+									<tr class='light'>
 										<td></td>
 										<td><input type="submit" value="Edit" /></td>
 									</tr>

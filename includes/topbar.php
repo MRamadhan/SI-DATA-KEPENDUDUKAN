@@ -4,7 +4,7 @@
 			<form action="cari" method="post">
 				<fieldset>
 					<legend>Pencarian</legend>
-					<input type="text" name="cari" placeholder="Pencarian"/>
+					<input type="text" name="cari" placeholder="Masukkan Nama KK"/>
 					<input type="submit" name="go" id="go" value="Cari" />
 				</fieldset>
 			</form>

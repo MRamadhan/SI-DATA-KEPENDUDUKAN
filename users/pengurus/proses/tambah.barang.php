@@ -10,9 +10,9 @@
 		$harga = $_POST['harga'];
 		$insert = mysql_query("INSERT INTO barang(id_barang,nama_barang,jumlah_barang,harga_jual) values('$id','$nama','$jumlah','$harga')");
 		if($insert){
-			echo "<script>alert('Data Barang berhasil ditambah');document.location='../../../barang';</script>";
+			echo "<script>alert('Data Berita berhasil ditambah');document.location='../../../barang';</script>";
 		}else{
-			echo "<script>alert('Data Barang gagal ditambah');document.location='../../../barang';</script>";
+			echo "<script>alert('Data Berita gagal ditambah');document.location='../../../barang';</script>";
 		}
 	}else{
 		echo "<script>alert('Anda tidak punya hak untuk mengakses file ini');document.location='../../../home';</script>";
